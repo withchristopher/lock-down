@@ -5,12 +5,10 @@
 }
 
 body {
-  /* more on this */
   color: #39a6b2;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply style to <header> */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -71,7 +69,7 @@ section {
   padding: 60px;
 }
 
-/* Hero Style */
+/* Hero style start */
 .hero {
   background-image: url("../img/hero-bg.jpg");
   height: 600px;
@@ -80,26 +78,33 @@ section {
   position: relative;
 }
 
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
+
+/* Hero-form style start */
 .hero-form {
-  color: #024e76;
+  border: solid 3px #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
-  border: solid 3px #024e76;
+  color: #024e76;
   position: absolute;
   bottom: 120px;
   right: 140px;
 }
 
 .hero-form h3 {
-  margin: 0px;
-  font-size: larger;
+  font-size: 24px;
+  margin: 0;
 }
 
 .hero-form p {
-  margin: 20px 10px;
+  margin: 5px 0 15px 0;
 }
-
+/* input style start */
 .form-input {
   border: 1px solid #024e76;
   display: block;
@@ -109,6 +114,7 @@ section {
   width: 100%;
   margin-bottom: 15px;
 }
+/* input style end */
 
 .hero-form label {
   margin: 0 5px;
@@ -121,42 +127,10 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
-
-/*End Style Hero */
+/* Hero style end */
 
 .intro {
   text-align: center;
-}
-
-.intro p {
-  margin: 0 auto;
-  line-height: 1.7;
-  color: #39a6b2;
-  width: 80%;
-  font-size: 20px;
-}
-
-.steps {
-  text-align: center;
-  background: #fce138;
-}
-.steps div {
-  margin-bottom: 80px;
-}
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-
-.steps span {
-  font-size: 38px;
 }
 
 .section-title {
@@ -168,27 +142,80 @@ section {
   border-bottom: 3px solid;
 }
 
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+/* adds class format to all h3 children of steps section*/
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
+}
+
 .trainers {
   text-align: center;
 }
 
 .trainer {
-  overflow: auto;
-  color: #fce138;
   width: 900px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 30px auto;
   background: #024e76;
+  color: #fce138;
+  overflow: auto;
 }
 
 .trainer img {
-  float: left;
   width: 35%;
+  float: left;
 }
 
 .trainer-bio {
   padding: 35px;
-  width: 65%;
   float: left;
+  width: 65%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -207,17 +234,11 @@ section {
   line-height: 1.3;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text.right {
-  text-align: right;
-}
+/*reach out styles start */
 
 .contact {
   text-align: center;
-  background-color: #024e76;
+  background: #024e76;
 }
 
 .contact h2 {
@@ -233,17 +254,18 @@ section {
   width: 410px;
   display: inline-block;
   vertical-align: top;
-  text-align: top;
+  text-align: left;
   margin: 30px 0 0 60px;
   color: white;
 }
+
 .contact-info h3 {
   color: #fce138;
   font-size: 32px;
 }
 
 .contact-info p,
-.contact-info address {
+address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
@@ -254,4 +276,4 @@ section {
   color: #fce138;
 }
 
-/* REACH OUT STYLES END */
+/*reach out styles end */
