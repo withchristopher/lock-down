@@ -71,7 +71,7 @@ section {
 
 /* Hero style start */
 .hero {
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/flipped-hero-image.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
