@@ -21,8 +21,4 @@ Use your terminal: \$ git clone https://github.com/withchristopher/lock-down
 
 Made with ❤️ by Chris
 
-<<<<<<< HEAD
-### ©️2019 Run Buddy, Inc Then there
-=======
-### ©️2019 Run Buddy, Inc This time
->>>>>>> 4084bf677d7266417e0bfa6c62835ef13e11c501
+### ©️2019 Run Buddy, Inc
