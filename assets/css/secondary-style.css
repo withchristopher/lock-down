@@ -62,3 +62,48 @@
   border-radius: 15px;
   margin-bottom: 20px;
 }
+
+/*Media Query for smaller desktop screens and smaller */
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta,
+  .hero-form {
+    width: 100%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
+}
