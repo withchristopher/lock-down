@@ -1,7 +1,7 @@
 # Running Club
 Template for a running club with a simple HTML/CSS mockup.
 
-# Simple HTML & CSS website for RUnni
+# Simple HTML & CSS website for a running clubd
 This website makes use of simple HTML and CSS. Development purposes and needs additional headers before deploying to production.
 
 ## View site
